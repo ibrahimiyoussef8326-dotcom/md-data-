@@ -25,6 +25,7 @@ body{
 .sec{
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 .ddd{
     width: 300px;
