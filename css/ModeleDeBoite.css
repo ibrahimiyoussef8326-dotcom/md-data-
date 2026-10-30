@@ -24,6 +24,7 @@ body{
 }
 .sec{
     display: flex;
+    flex-direction: row;
 }
 .ddd{
     width: 300px;
