@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+}
+body{
+    background-color: aliceblue;
+}
+.acc{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    padding: 90px 0;
+    background-image: radial-gradient(rgb(218, 216, 216) 1.5px ,transparent 1px );
+    background-size: 24px 24px ;
+}
+.acc h1{
+    font-size: 80px;
+}
+.acc span{
+    color: blue;
+}
+.acc p{
+    color: gray;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ddd{
+    width: 300px;
+
+    border-radius: 17px;
+    overflow: hidden;
+    margin: 30px auto 30px 30px;
+    background-color: white;
+}
+.ty{
+  padding: 5%;
+
+}
+img{
+    width: 100%;
+    object-fit: cover;
+}
+.ic{
+    padding: 2%;
+    background-color: rgb(189, 255, 233);
+    width: 40%;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.ty h1{
+    font-size: 20px;
+}
+.sou{
+    color: gray;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+}
