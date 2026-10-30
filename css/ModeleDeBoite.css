@@ -22,6 +22,9 @@ body{
     color: gray;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.sec{
+    display: flex;
+}
 .ddd{
     width: 300px;
 
