@@ -26,10 +26,41 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
 }
+.filtre-categories{
+    display: inline-block;
+    text-align: center;
+}
+.liste-filtres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 5px;
+    row-gap: 15px;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+}
+
+.pilule-filtre {
+     display: inline-block;
+     padding: 10px 16px;
+     margin: 4px;
+     color: #4b5563;
+     background: white;
+     border: 1px solid #e5e7eb; border-radius: 8px;
+     text-decoration: none; }
+.pilule-filtre.actif {
+     color: white;
+     background: #111827;
+     }
 .ddd{
     width: 300px;
-
+    display: block;
     border-radius: 17px;
     overflow: hidden;
     margin: 30px auto 30px 30px;
